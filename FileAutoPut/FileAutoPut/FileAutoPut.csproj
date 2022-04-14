@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SqliteDB\" />
-    <Folder Include="Schedule\" />
+    <Compile Remove="Schedule\**" />
+    <Compile Remove="SqliteDB\**" />
+    <EmbeddedResource Remove="Schedule\**" />
+    <EmbeddedResource Remove="SqliteDB\**" />
+    <None Remove="Schedule\**" />
+    <None Remove="SqliteDB\**" />
   </ItemGroup>
 
   <ItemGroup>
