@@ -17,6 +17,10 @@ namespace FileAutoPut.Entity
 {
     public class LoginModel
     {
+         static LoginModel()
+        {
+
+        }
         public string Account { get; set; }
 
         public string Password { get; set; }
