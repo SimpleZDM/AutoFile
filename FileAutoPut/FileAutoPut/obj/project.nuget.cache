@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6VfrBBM4x0WzDnuG+l5EBFz0TlHT/UgJuXwXotwbjXN1WZoA+pP7/8n75WDj5TWHg9fCmUQUqDUiz5dDVDRhMQ==",
+  "success": true,
+  "projectFilePath": "F:\\MyProject\\C#\\ConsoleApp\\Git_FileAutoPut\\FileAutoPut\\FileAutoPut\\FileAutoPut.csproj",
+  "expectedPackageFiles": [
+    "D:\\Nuget\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "D:\\Nuget\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

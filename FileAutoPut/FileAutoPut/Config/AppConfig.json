@@ -1,0 +1,39 @@
+[
+  {
+    "ProjectName": "沙盘-后端", //项目名称
+    "URLPath": "http://172.16.1.17:5002", //远程项目地址ip+端口
+    //每个项目可以有多个提交模块
+    "Modules": [
+      {
+        "SavePath": "", //服务器存放地址
+        "Name": "数据接口aip", //模块名称
+        "IsAutoPut": true, //是否自动提交
+        "IncludeSubdirectories": true,//是否包含子项
+        "WatchPath": "F:\\MyProject\\C#\\WebApp\\Platform\\MDT.VirtualSoftPlatform\\MDT.VirtualSoftPlatform.ServiceInstance\\bin\\Release\\net5.0\\publish" //监控目录---生成的dll文件
+      },
+      {
+        "SavePath": "", //服务器存放地址
+        "Name": "网关aip", //模块名称
+        "IsAutoPut": true, //是否自动提交
+        "WatchPath": "F:\\MyProject\\C#\\WebApp\\Platform\\MDT.VirtualSoftPlatform\\MDT.VirtualSoftPlatform.GatewayService\\bin\\Debug\\net5.0" //监控目录---生成的dll文件
+      }
+    ],
+    "Account": "123456", //远程接口认证账号
+    "Password": "123456",//远程接口认证的密码
+    "Apis":[
+      {
+        "Name": "login",
+        "Path": "/api/user/login",
+        "HttpMethod": 2
+
+      },
+      {
+        "Name": "upload",
+        "Path": "/api/file/system",
+        "HttpMethod": 2
+        //1-get 2-post 3-put 4-delete
+      }
+    ]
+  }
+  //每个项目就单独一个配置项
+]
